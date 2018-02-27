@@ -1,7 +1,7 @@
-FROM docker.elastic.co/kibana/kibana:6.1.1
+FROM docker.elastic.co/kibana/kibana:6.2.2
 
-ENV WAZUH_VERSION 3.1.0
-ENV KIBANA_VERSION 6.1.1
+ENV WAZUH_VERSION 3.2.0
+ENV KIBANA_VERSION 6.2.2
 
 USER kibana
 
